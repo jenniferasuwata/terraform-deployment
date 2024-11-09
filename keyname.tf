@@ -1,4 +1,5 @@
 # Defining Key Name for connection
 variable "keyname" {
-  default     = "replace with your keypair name" 
+  default     = "jenkins_key.pem" 
+  description = "Name of AWS Key Pair"
 }
